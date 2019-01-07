@@ -1,0 +1,11 @@
+
+
+
+nrs 1
+cd /opt/ibm/was700/profiles/nrsnode1/logs
+tail -200f nrs_1_1/SystemOut.log
+
+
+nrs 2
+cd /opt/ibm/was700/profiles/nrsnode2/logs
+tail -200f nrs_2_1/SystemOut.log
